@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+      body {
+        background-color: #d6e2f0;
+      }
+
+      .wrap {
+        height: 800px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        height: 497px;
+        width: 320px;
+        background-color: white;
+        border: 1px white solid;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .top_content {
+        font-size: 20px;
+        font-family: "Outfit";
+        color: #1f3251;
+        padding-top: 30px;
+        text-align: center;
+        font-weight: bolder;
+      }
+      .button_content {
+        font-family: "Outfit";
+        font-size: 15px;
+        text-align: center;
+        color: #7b879d;
+        padding-top: 22px;
+      }
+      .img {
+        height: 288px;
+        width: 288px;
+        border-radius: 10px;
+        margin-top: 11px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rapper">
+      <div class="wrap">
+        <div class="container">
+          <img class="img" src="./images/image-qr-code.png" alt="" />
+          <span class="top_content"
+            >Improve your front-end<br />
+            skills by building projects</span
+          >
+          <span class="button_content"
+            >Scan the QR code to visit Frontend<br />
+            Mentor and take your coding skills<br />
+            to next level</span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
